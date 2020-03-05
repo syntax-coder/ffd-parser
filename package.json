@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Sravan Nerella",
   "license": "MIT",
+  "keywords": [
+    "ffd", "flat file parser", "parser", "ffd to JSON"
+  ],
   "scripts": {
     "start": "node examples/sample.js text.txt",
     "build": "babel ./src -d ./dist",
