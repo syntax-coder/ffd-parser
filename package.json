@@ -14,6 +14,7 @@
   "scripts": {
     "start": "node examples/sample.js text.txt",
     "build": "npm install && babel ./src -d ./dist",
+    "publish": "npm version minor && npm publish",
     "clean": "rm -rf dist"
   },
   "devDependencies": {
