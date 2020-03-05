@@ -1,6 +1,6 @@
 {
   "name": "ffd-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flat file parser",
   "main": "dist/index.js",
   "author": "Sravan Nerella",
@@ -14,7 +14,6 @@
   "scripts": {
     "start": "node examples/sample.js text.txt",
     "build": "npm install && babel ./src -d ./dist",
-    "publish": "npm version minor && npm publish",
     "clean": "rm -rf dist"
   },
   "devDependencies": {
