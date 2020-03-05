@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "start": "node examples/sample.js text.txt",
-    "build": "babel ./src -d ./dist",
+    "build": "npm install && babel ./src -d ./dist",
     "clean": "rm -rf dist"
   },
   "devDependencies": {
