@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Sravan Nerella",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/syntax-coder/ffd-parser.git"
+  },
   "keywords": [
     "ffd", "flat file parser", "parser", "ffd to JSON"
   ],
